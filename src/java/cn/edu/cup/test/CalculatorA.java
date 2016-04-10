@@ -18,8 +18,8 @@ public class CalculatorA implements DemoInterface {
     */
     @Override
     public void doCalculate(TestClazzA testClazzA, TestClazzB testClazzB, String name) {
-        testClazzB.setName(String.format("%s:A+B dev by %s", testClazzA.getName(), name));
-        testClazzB.setFieldc(testClazzA.getFielda() + testClazzA.getFieldb());
+        testClazzB.setName(String.format("%s:(A+B)/(A-B) dev by %s", testClazzA.getName(), name));
+        testClazzB.setFieldc(testClazzA.getFielda() + testClazzA.getFieldb()/(testClazzA.getFielda() - testClazzA.getFieldb()));
     }
     
 }
