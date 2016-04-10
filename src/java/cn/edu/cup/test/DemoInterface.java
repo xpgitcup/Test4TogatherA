@@ -15,7 +15,8 @@ public interface DemoInterface {
      *
      * @param testClazzA
      * @param testClazzB
+     * @param name
      */
-    void doCalculate(TestClazzA testClazzA, TestClazzB testClazzB);
+    void doCalculate(TestClazzA testClazzA, TestClazzB testClazzB, String name);
     
 }

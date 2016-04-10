@@ -11,6 +11,7 @@ class BootStrap {
                 createTestData()
             }
             production {
+                createTestData()
             }
         }
     }
